@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "course": "Econometrics I",
+        "instructor": "Dr. Smith",
+        "days": "Mon & Wed",
+        "time": "10:00 AM - 11:30 AM",
+        "location": "BUSN 101"
+    },
+    {
+        "id": 2,
+        "course": "Business Analytics",
+        "instructor": "Prof. Johnson",
+        "days": "Tue & Thu",
+        "time": "1:00 PM - 2:30 PM",
+        "location": "BUSN 202"
+    },
+    {
+        "id": 3,
+        "course": "Microeconomics",
+        "instructor": "Dr. Williams",
+        "days": "Mon, Wed & Fri",
+        "time": "9:00 AM - 10:00 AM",
+        "location": "ECON 301"
+    },
+    {
+        "id": 4,
+        "course": "Statistics",
+        "instructor": "Prof. Davis",
+        "days": "Tue & Thu",
+        "time": "3:00 PM - 4:30 PM",
+        "location": "STAT 105"
+    }
+]
+  

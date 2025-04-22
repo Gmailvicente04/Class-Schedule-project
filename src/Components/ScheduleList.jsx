@@ -3,18 +3,14 @@ import React, { useState, useEffect } from 'react';
 import ScheduleCard from './ScheduleCard';
 import './ScheduleList.css';
 
+
+
 export default function ScheduleList() {
   const [schedules, setSchedules] = useState([]);
-  const API = 'https://my-json-server.typicode.com/<Gmailvicente04>/Class-Schedule-Project/schedules';
 
   useEffect(() => {
-    fetch(API)
-      .then(res => {
-        if (!res.ok) throw new Error(res.statusText);
-        return res.json();
-      })
-      .then(data => setSchedules(data))
-      .catch(err => console.error('Failed to load schedules:', err));
+    // Simulate fetching data from db.json
+    setSchedules(schedulesData.schedules);
   }, []);
 
   return (
