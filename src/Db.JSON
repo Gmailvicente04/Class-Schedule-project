@@ -1,0 +1,22 @@
+{
+    "schedules": [
+      {
+        "id": 1,
+        "course": "Econometrics I",
+        "instructor": "Dr. Smith",
+        "days": "Mon & Wed",
+        "time": "10:00 AM - 11:30 AM",
+        "location": "BUSN 101"
+      },
+      {
+        "id": 2,
+        "course": "Statistics II",
+        "instructor": "Prof. Johnson",
+        "days": "Tue & Thu",
+        "time": "1:00 PM - 2:30 PM",
+        "location": "MATH 202"
+      }
+    ]
+  }
+
+  
